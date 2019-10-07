@@ -21,6 +21,7 @@ public class TestPageTitle {
 			System.out.println("Test Fail");
 		}
 		
+		System.out.println("Close Browser");
 		driver.close();  //It will close the currently focussed window.
 		//driver.quit();   //It will close all the opened window.
 	}
